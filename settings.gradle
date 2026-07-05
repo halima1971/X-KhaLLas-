@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolution {
+    eagerlyConfigureReconfigurationRecipe {
+        afterProject { project ->
+        }
+    }
+}
+rootProject.name = "X KhaLLas"
+include ':app'
